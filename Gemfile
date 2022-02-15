@@ -16,6 +16,7 @@ group :test do
   gem 'sinatra-reloader'
   gem 'simplecov', require: false
   gem 'simplecov-console', require: false
+  gem 'pg'
 end
 
 group :development, :test do

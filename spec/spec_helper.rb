@@ -4,7 +4,8 @@
 # ENV['RACK_ENV'] = 'test'
 ENV['ENVIRONMENT'] = 'test'
 
-# Bring in the contents of the `app.rb` file. The below is equivalent to: require_relative '../app.rb'
+
+# Bring in the contents of the `bookmark.rb` file. The below is equivalent to: require_relative '../bookmark.rb'
 require File.join(File.dirname(__FILE__), '..', 'bookmark.rb')
 
 
@@ -14,7 +15,7 @@ require 'capybara/rspec'
 require 'rspec'
 require 'simplecov'
 require 'simplecov-console'
-
+require_relative './setup_test_database'
 
 # Tell Capybara to talk to BookmarkManager
 Capybara.app = BookmarkManager
@@ -45,6 +46,11 @@ SimpleCov.start
 #
 # See https://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
 RSpec.configure do |config|
+  
+    config.before(:each) do
+      setup_test_database
+    
+  end
   # rspec-expectations config goes here. You can use an alternate
   # assertion/expectation library such as wrong or the stdlib/minitest
   # assertions if you prefer.

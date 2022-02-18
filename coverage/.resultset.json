@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/haroonfatih/Projects/Bookmark_challenge_evening_morning/Bookmark_challenge_evening_morning/spec/bookmark_spec.rb": {
+      "/Users/rakshakshetty/projects/repeatweekend/Bookmark_challenge_evening_morning/spec/bookmark_spec.rb": {
         "lines": [
           1,
           1,
@@ -9,13 +9,54 @@
           1,
           1,
           1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
           1,
           null,
           null,
+          null,
+          1,
           1,
           1,
           1,
           null,
+          null,
+          null
+        ]
+      },
+      "/Users/rakshakshetty/projects/repeatweekend/Bookmark_challenge_evening_morning/spec/features/Adding_bookmarks_spec.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/rakshakshetty/projects/repeatweekend/Bookmark_challenge_evening_morning/spec/features/viewing_bookmark_spec.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
           1,
           null,
           1,
@@ -26,41 +67,7 @@
           null
         ]
       },
-      "/Users/haroonfatih/Projects/Bookmark_challenge_evening_morning/Bookmark_challenge_evening_morning/spec/features/Adding_bookmarks_spec.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          null,
-          null
-        ]
-      },
-      "/Users/haroonfatih/Projects/Bookmark_challenge_evening_morning/Bookmark_challenge_evening_morning/spec/features/viewing_bookmark_spec.rb": {
-        "lines": [
-          1,
-          1,
-          null,
-          1,
-          null,
-          null,
-          1,
-          1,
-          1,
-          null,
-          1,
-          null,
-          1,
-          1,
-          1,
-          null,
-          null,
-          null
-        ]
-      },
-      "/Users/haroonfatih/Projects/Bookmark_challenge_evening_morning/Bookmark_challenge_evening_morning/spec/features/viewing_homepage_first_feature_test_spec.rb": {
+      "/Users/rakshakshetty/projects/repeatweekend/Bookmark_challenge_evening_morning/spec/features/viewing_homepage_first_feature_test_spec.rb": {
         "lines": [
           null,
           1,
@@ -73,6 +80,6 @@
         ]
       }
     },
-    "timestamp": 1645216977
+    "timestamp": 1645220896
   }
 }
